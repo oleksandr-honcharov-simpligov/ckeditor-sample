@@ -1,0 +1,7 @@
+<ckeditor *ngIf="showEditor"
+          [editor]="CustomEditor"
+          (ready)="onReady($event)"
+>
+</ckeditor>
+
+<button (click)="save()">save</button>
